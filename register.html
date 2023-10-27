@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action_page.php">
+        <label for="fname" plac>Nick</label><br>
+
+        <input type="text" id="fname" name="fname" placeholder="istniejący nick z CS"><br>
+        <label for="fname" plac>Hasło</label><br>
+
+        <input type="password" id="pass" name="pass" placeholder="hasło"><br>
+
+        <label for="fname" plac>Powtórz hasło</label><br>
+        <input type="password" id="pass2" name="pass2" placeholder="powtórz hasło"><br>
+
+        <label for="fname" plac>Data urodzenia</label><br>
+        <input type="date" id="date" name="date" placeholder="powtórz hasło"><br>
+
+        <input type="radio" id="html" name="fav_language" value="k">
+        <label for="k">Kobieta</label><br>
+        <input type="radio" id="css" name="fav_language" value="m">
+        <label for="m">Mężczyzna</label><br>
+
+        <input type="checkbox" id="regulamim" name="regulamim" value="regulamin" checked>
+        <label for="regulamim">Akceptuje regulamin serwisu</label><br>
+
+        <input type="checkbox" id="regulamim" name="regulamim" value="regulamin">
+        <label for="regulamim">Wyrażam zgodę na otrzymywanie newslettera</label><br>
+
+        <label for="gun">Ulubiona broń</label>
+        <select name="gun" id="gun">
+          <option value="five">Five-SeveN</option>
+          <option value="eagle">Desert Eagle,</option>
+          <option value="pp-bizon">PP-Bizon</option>
+          <option value="awp">AWP</option>
+          <option value="mp9">MP9</option>
+          <option value="ak">AK-47</option>
+        </select>
+
+        <label for="map" >Ulubiona mapa</label>
+        <select name="map" id="map" multiple="6">
+          <option value="dust">Dust II</option>
+          <option value="mirage">Mirage,</option>
+          <option value="cache">Cache</option>
+          <option value="Inferno">Inferno</option>
+          <option value="Nuke">Nuke</option>
+          <option value="Train">Train</option>
+        </select>
+
+        
+        <label for="komentarz" style="height: 10px;"><small>Skomentuj: </small></label>
+        <textarea id="komentarz" rows="5" cols="44"></textarea>
+
+        <input type="submit" value="Zarejestruj się">
+      </form> 
+</body>
+</html>
